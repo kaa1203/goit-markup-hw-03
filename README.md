@@ -1,3 +1,4 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Finished Studio page CSS styling and portfolio mark up
+Finished "naming" the class of elements
+Applied some flexbox in the styling
