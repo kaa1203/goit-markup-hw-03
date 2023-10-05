@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
+    <header class="header">
+        <div class="nav-container container">
             <nav class="nav-bar">
                 <a href="#" class="nav-logo logo link"><span class="highlight">Web</span>studio</a>
                 <ul class="nav-list list">
@@ -29,33 +29,34 @@
                 </ul>
             </nav>
             
-            <div class="header-contact">
-                <ul class="header-contact-list list">
-                    <li class="header-item">
-                        <a href="mailto:info@devstudio.com" class="header-contact-link link">info@devstudio.com</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="tel:+110001111111" class="header-contact-link link">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-            </div>     
-        </header>
-        
-        <main>
-            <section class="hero">
+            <ul class="header-contact-list list">
+                <li class="header-item">
+                    <a href="mailto:info@devstudio.com" class="header-contact-link link">info@devstudio.com</a>
+                </li>
+                <li class="header-item">
+                    <a href="tel:+110001111111" class="header-contact-link link">+11 (000) 111-11-11</a>
+                </li>
+            </ul>    
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero-section">
+            <div class="hero-container container">
                 <h1 class="hero-header header-one">
-                    Effective Solutions 
-                    for Your Business
+                    Effective Solutions <br> for Your Business
                 </h1>
                 <button type="button" class="header-button button"> Order Service</button>
-            </section>
+            </div>
+        </section>
 
-            <section class="section-one section">
+        <section class="section-one section">
+            <div class="section-one-container container">
                 <ul class="section-one-list list">
                     <li class="section-one-item">
                         <h3 class="section-one-header header-three">Strategy</h3>
                         <p>
-                           Our goal is to identify the business problem to walk away with the perfect and creative solution. 
+                            Our goal is to identify the business problem to walk away with the perfect and creative solution. 
                         </p>
                     </li>
                     <li class="section-one-item">
@@ -79,9 +80,11 @@
                         
                     </li>
                 </ul>
-            </section>
-    
-            <section class="section-two section">
+            </div>
+        </section>
+
+        <section class="section-two section">
+            <div class="section-two-container container">
                 <h2 class="section-two-header header-two">What are we doing</h2>
                 <ul class="section-two-list list">
                     <li class="section-two-item">
@@ -94,39 +97,49 @@
                         <img src="images/laptop.jpg" alt="laptop image" width="360" class="section-two-image image">
                     </li>
                 </ul>
-            </section>
-    
-            <section class="section-three section">
-                <h2 class="section-three-header header-two">Our team</h2>
-                <ul class="section-three-list list">
-                    <li class="section-three-item">
-                        <img src="images/mark.jpg" alt="Mark Guerrero" width="264" class="section-three-image image">
-                        <h2 class="section-three-header header-three">Mark Guerrero</h2>
+            </div>
+        </section>
+
+        <section class="section-three section">
+            <h2 class="section-three-header header-two">Our team</h2>
+            <ul class="section-three-list list">
+                <li class="section-three-item">
+                    <img src="images/mark.jpg" alt="Mark Guerrero" width="264" class="section-three-image image">
+                    <div class="team-card">
+                        <h2 class="team-name header-three">Mark Guerrero</h2>
                         <p>Product Designer</p>
-                    </li>
-                    <li class="section-three-item">
-                        <img src="images/tom.jpg" alt="Tom Ford" width="264" class="section-three-image image">
-                        <h2 class="section-three-header header-three">Tom Ford</h2>
+                    </div>
+                </li>
+                <li class="section-three-item">
+                    <img src="images/tom.jpg" alt="Tom Ford" width="264" class="section-three-image image">
+                    <div class="team-card">
+                        <h2 class="team-name header-three">Tom Ford</h2>
                         <p>Frontend Developer</p>
-                    </li>
-                    <li class="section-three-item">
-                        <img src="images/camilla.jpg" alt="Camilla Garcia" width="264" class="section-three-image image">
-                        <h2 class="section-three-header header-three">Camilla Garcia</h2>
+                    </div>
+                </li>
+                <li class="section-three-item">
+                    <img src="images/camilla.jpg" alt="Camilla Garcia" width="264" class="section-three-image image">
+                    <div class="team-card">
+                        <h2 class="team-name header-three">Camilla Garcia</h2>
                         <p>Marketing</p>
-                    </li>
-                    <li class="section-three-item">
-                        <img src="images/daniel.jpg" alt="Daniel Wilson" width="264" class="section-three-image image">
-                        <h2 class="section-three-header header-three">Daniel Wilson</h2>
+                    </div>
+                </li>
+                <li class="section-three-item">
+                    <img src="images/daniel.jpg" alt="Daniel Wilson" width="264" class="section-three-image image">
+                    <div class="team-card">
+                        <h2 class="team-name header-three">Daniel Wilson</h2>
                         <p>UI Designer</p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    
-        <footer>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-container container">
             <a href="#" class="footer-logo logo link"><span class="highlight">WEB</span>STUDIO</a>
             <p>Increase the flow of customers and <br>sales for your business with digital<br> marketing & growth solutions.</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
